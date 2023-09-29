@@ -1,0 +1,86 @@
+/* Estilos para el contenedor principal del formulario */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #110f25;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    
+
+}
+
+img{
+    width: 50%;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7ade30;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada y etiquetas */
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #012246;
+}
+
+/* Estilos para los mensajes de error (pueden mostrarse dinámicamente con JavaScript) */
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+/* Estilos para un enlace de "¿Olvidaste tu contraseña?" */
+.forgot-password {
+    text-align: right;
+    font-size: 14px;
+}
+
+/* Estilos para un enlace de "Registrarse" o "Crear cuenta" */
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+}
